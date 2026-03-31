@@ -139,7 +139,7 @@ var css = `
 }
 .teklif-fab:hover { transform: scale(1.08); }
 .teklif-fab.hidden { transform: scale(0); opacity: 0; pointer-events: none; }
-.teklif-fab img { height: 65px; width: auto; display: block; }
+.teklif-fab img { height: 95px; width: auto; display: block; }
 @keyframes teklif-fadeUp { from{opacity:0;transform:translateY(8px)} to{opacity:1;transform:translateY(0)} }
 .teklif-widget.active .teklif-slider-wrapper { animation: teklif-fadeUp 0.3s ease 0.1s both; }
 @media (max-width: 480px) {
