@@ -1,6 +1,6 @@
-<script>
 (function(){
 "use strict";
+function teklifWidgetBaslat() {
 if(document.getElementById('teklifWidgetRoot')) return;
 
 // ===== CSS ENJEKTE =====
@@ -483,5 +483,12 @@ sliderEl.addEventListener('touchend', function(e) {
 tablarOlustur();
 sliderOlustur();
 
+} // teklifWidgetBaslat sonu
+
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', teklifWidgetBaslat);
+} else {
+    teklifWidgetBaslat();
+}
+
 })();
-</script>
