@@ -169,7 +169,7 @@ document.head.appendChild(styleEl);
 // ===== HTML ENJEKTE =====
 var root = document.createElement('div');
 root.id = 'teklifWidgetRoot';
-root.innerHTML = '<button class="teklif-fab" id="teklifFab"><img src="https://www.ayber.com/Data/EditorFiles/urunleri_incele_buton.png" alt="\u00DCr\u00FCnleri \u0130ncele"></button>'
+root.innerHTML = '<button class="teklif-fab" id="teklifFab"><img src="https://www.ayber.com/Data/EditorFiles/3taksitbuton.png" alt="\u00DCr\u00FCnleri \u0130ncele"></button>'
 + '<div class="teklif-widget" id="teklifWidget">'
 +   '<div class="teklif-header">'
 +     '<div class="teklif-header-top">'
